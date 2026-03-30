@@ -1,0 +1,77 @@
+.home {
+    padding-top: 100px; /* Espaço por causa do header fixo */
+}
+
+.hero {
+    background-color: var(--azul-escuro);
+    color: var(--bege-claro);
+    padding: 80px 24px;
+}
+
+.hero-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    margin-bottom: 32px;
+    color: var(--bege-claro);
+    max-width: 600px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.btn-primary {
+    background-color: var(--amarelo-destaque);
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: var(--amarelo-hover);
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: var(--bege-claro);
+    border: 2px solid var(--bege-claro);
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btn-secondary:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.destaque {
+    padding: 48px 24px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.destaque h2 {
+    margin-bottom: 24px;
+    color: var(--azul-escuro);
+}
+
+.grid-prestadores {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 24px;
+}

@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "nome": "João Silva",
+        "categoria": "Eletricista",
+        "bairro": "Centro",
+        "descricao": "Serviços elétricos residenciais e comerciais.",
+        "nota": 4.8,
+        "imagem": "/imagem/eletricista.jpg"
+    },
+    {
+        "id": 2,
+        "nome": "Maria Oliveira",
+        "categoria": "Diarista",
+        "bairro": "Vila Altos",
+        "descricao": "Limpeza residencial com confiança e qualidade.",
+        "nota": 4.6,
+        "imagem": "/imagem/diarista.jpg"
+    },
+    {
+        "id": 3,
+        "nome": "Carlos Santos",
+        "categoria": "Pedreiro",
+        "bairro": "Jardim Europa",
+        "descricao": "Reformas, contruções e acabamentos.",
+        "nota": 4.9,
+        "imagem": "/imagem/pedreiro.jpg"
+    }
+]

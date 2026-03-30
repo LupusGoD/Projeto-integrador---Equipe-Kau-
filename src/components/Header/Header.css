@@ -1,0 +1,51 @@
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--azul-escuro);
+    padding: 16px 0;
+    z-index: 1000;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: var(--bege-claro);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.menu a {
+    color: var(--bege-claro);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.menu a:hover {
+    color: var(--amarelo-destaque);
+}
+
+.login-btn {
+    background-color: var(--amarelo-destaque);
+    padding: 8px 16px;
+    border-radius: 6px;
+    color: #fff;
+}
+
+.login-btn:hover{
+    background-color: var(--amarelo-hover);
+}
