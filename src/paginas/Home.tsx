@@ -1,12 +1,23 @@
-import { Link } from "react-router";
+
 
 function Home() {
     return (
-        <div>
-            <h2>Seja Bem vindo a Home!</h2>
-            <Link to = "/cadastro">Faça seu cadastro</Link>
-        </div>
-    )
-}
+        <section className="home">
+            <div className="overlay">
+                <div className="content">
+                    <h1>Transforme Vidas em Bauru!</h1>
+
+                    <p>Junte-se a nós e faça a diferença na sua comunidade.
+                        Cada hora doada é uma vida transformada, uma esperança renovada.
+                    </p>
+
+                    <button className="btn-primary">
+                        Seja um voluntário
+                    </button>
+                </div>
+            </div>
+        </section>
+    );
+};
 
 export default Home;
