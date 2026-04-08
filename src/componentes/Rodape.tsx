@@ -1,9 +1,10 @@
-function Rodape() {
-    return (
-        <div>
-            <h6>Componente Rodapé</h6>
-        </div>
-    )
-}
 
+function Rodape() {
+  return (
+    <footer className="rodape">
+      <p>© 2023 Voluntaria Bauru | Projeto educacional</p>
+    </footer>
+  )
+}
+ 
 export default Rodape;

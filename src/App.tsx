@@ -5,6 +5,7 @@ import Projetos from './paginas/Projetos'
 import './Style/style.css'
 import PageNotFound from './paginas/PageNotFound'
 import Cabecalho from './componentes/Cabecalho'
+import Rodape from './componentes/Rodape'
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path="/projetos" element={<Projetos />} /> 
         
       </Routes>
+      <Rodape />
     </>
   )
 }
